@@ -2,6 +2,7 @@ import { cp, readdir, rm } from 'node:fs/promises'
 import { defineBuildConfig } from 'unbuild'
 
 export default defineBuildConfig({
+
   hooks: {
     'rollup:done': async function () {
       // default to .js and .d.ts extensions
