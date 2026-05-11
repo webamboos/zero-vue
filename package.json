@@ -1,11 +1,14 @@
 {
-  "name": "zero-vue",
+  "name": "@webamboos/zero-vue",
   "type": "module",
   "version": "0.8.0",
   "packageManager": "pnpm@11.0.9",
   "description": "",
   "license": "MIT",
-  "repository": "danielroe/zero-vue",
+  "repository": "webamboos/zero-vue",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "sideEffects": false,
   "exports": {
     ".": "./dist/index.js"
